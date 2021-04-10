@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+body, html {
+    height: 100vh;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+#logo {
+	width: 120px;
+	height: 43px;
+}
+
+@media (max-width: 576px) {
+	#spn {
+		margin-left: 10px;
+	}
+	.carousel-caption {
+        font-size: 0.5rem!important;
+	}
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+}
+
+.nav-link, .abtn {
+	color: #FFFFFF!important;
+}
+
+.nav-link:hover, .abtn:hover {
+	color: #f47d32!important;
+}
+
+.nav-link:active, .abtn:active {
+	color: #f47d32!important;
+}
+
+.content {
+	min-height: 100%;
+}
+
+.navbar {
+	background-color: #000000;
+}
+
+.navbar-toggler {
+	background-color: #f47d32;
+}
+
+.card_ {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+}
+
+.btn_ {
+	color: #f47d32!important;
+	border: 1px solid #f47d32!important;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.btn_:hover {
+	color: #FFFFFF!important;
+	border: 1px solid #f47d32!important;
+	background-color: #f47d32!important;
+}
+
+.btn_:active {
+	color: #FFFFFF!important;
+	border: 1px solid #f47d32!important;
+	background-color: #f47d32!important;
+}
+
+.link_ {
+	color: #fff;
+	background-color: #000;
+}
+
+.link_:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.link_:active {
+	color: #000;
+	background-color: #fff;
+}
+
+.btn_info {
+	color: #17a2b8!important;
+	border: 1px solid #17a2b8!important;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.btn_info:hover {
+	color: #fff!important;
+	border: 1px solid #17a2b8!important;
+	background-color: #17a2b8!important;
+}
+
+.btn_info:hover {
+	color: #fff!important;
+	border: 1px solid #17a2b8!important;
+	background-color: #17a2b8!important;
+}
+
+.page_link {
+	color: #f47d32;
+}
+
+.page_link:hover {
+	color: #fff;
+}
+
+.page_link a {
+	background-color: #000;
+	border-radius: 2px;
+	border: 1px solid #f47d32;
+}
+
+.page_link a:hover {
+	background-color: #f47d32;
+	border: 1px solid #f47d32;
+}
+
+.active {
+	background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.a_ {
+	margin-left: 10px;
+	color: #fff;
+}
+
+.a_:hover {
+	color: #f47d32!important;
+}
+
+.link__ {
+    color: #f47d32!important;
+}
+
+.link__:hover {
+    border-bottom: 1px solid #f47d32;
+}
+
+.carousel_link {
+    color: #fff;
+}
+
+.carousel_link:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}

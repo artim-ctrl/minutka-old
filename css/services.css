@@ -1,0 +1,23 @@
+.elem_table {
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    min-width: 100px;
+}
+
+.th_table {
+    background-color: #f47d32!important;
+}
+
+.th_2_table {
+    background-color: #77726f!important;
+}
+
+.th_3_table {
+    background-color: #b3b0ae!important;
+}
+
+table {
+  display: block;
+  overflow: auto;
+  max-width: 100%;
+}
